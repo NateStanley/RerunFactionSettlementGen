@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>Greekin.RerunFactionSettlementGen</packageId>
+  <name>Rerun Faction Settlement Gen</name>
+  <author>Greekin</author>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <loadAfter>
+    <li>Ludeon.RimWorld.Odyssey</li>
+  </loadAfter>
+  <description>Spawns the missing world bases for a faction in an existing save. Go to Mod Options -> Rerun Faction Settlement Gen, pick a faction, and press the button. The mod places however many bases the faction should have had at world generation, using the game's own settlement placement logic.
+
+Works with planetside factions as well as orbital factions.
+</description>
+</ModMetaData>

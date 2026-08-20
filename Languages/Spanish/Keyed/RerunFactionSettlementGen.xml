@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MFS_SettingsCategory>Regenerar asentamientos de facciones</MFS_SettingsCategory>
+  <MFS_LoadSaveFirst>Carga primero una partida guardada y vuelve a abrir esta página.</MFS_LoadSaveFirst>
+  <MFS_Intro>Genera las bases mundiales que le faltan a una facción usando la generación de asentamientos del juego base, en la capa del mundo propia de la facción.</MFS_Intro>
+  <MFS_ShowHiddenFactions>Mostrar facciones ocultas</MFS_ShowHiddenFactions>
+  <MFS_BufferLabel>Margen alrededor de las bases del jugador (casillas del mundo)</MFS_BufferLabel>
+  <MFS_BufferTooltip>No se colocarán bases nuevas a menos de esta cantidad de casillas del mundo de cualquiera de tus asentamientos. La distancia se mide en casillas de la superficie en todas las capas, por lo que también impide que las plataformas orbitales queden justo encima de tu base. Pon 0 para desactivarlo.</MFS_BufferTooltip>
+
+  <MFS_ColFaction>Facción</MFS_ColFaction>
+  <MFS_ColLayer>Capa</MFS_ColLayer>
+  <MFS_ColBases>Bases</MFS_ColBases>
+  <MFS_BasesTooltip>Bases en posesión / objetivo.\n\nEl objetivo no es un número fijo. Cada capa del mundo tiene un presupuesto total de asentamientos según su tamaño y el ajuste de población del mundo, y ese presupuesto se reparte entre las facciones fundadoras de asentamientos de la capa en proporción a su peso de generación de asentamientos.\n\nAñadir una facción nueva a una capa suma otro aspirante al mismo presupuesto, por lo que el objetivo de las facciones ya presentes en esa capa disminuye.</MFS_BasesTooltip>
+
+  <MFS_NoFactions>No hay facciones que mostrar.</MFS_NoFactions>
+  <MFS_NoFactionsTryHidden>No hay facciones que mostrar. Prueba a activar «Mostrar facciones ocultas».</MFS_NoFactionsTryHidden>
+
+  <!-- {0} faction name, {1} owned count, {2} layer label, {3} target count -->
+  <MFS_CountTooltip>{0} posee {1} base(s) en la capa {2}. El objetivo de la generación del mundo es {3}.</MFS_CountTooltip>
+  <MFS_NothingToAdd>nada que añadir</MFS_NothingToAdd>
+  <MFS_SpawnOneBase>Generar 1 base</MFS_SpawnOneBase>
+  <!-- {0} number of bases -->
+  <MFS_SpawnBases>Generar {0} bases</MFS_SpawnBases>
+
+  <!-- {0} placed count, {1} faction name, {2} layer label -->
+  <MFS_PlacedBases>Se han colocado {0} base(s) para {1} en la capa {2}.</MFS_PlacedBases>
+  <!-- {0} placed count, {1} faction name, {2} shortfall count -->
+  <MFS_PlacedPartial>Se han colocado {0} base(s) para {1}; no se encontraron casillas válidas para las {2} restantes.</MFS_PlacedPartial>
+  <!-- {0} faction name -->
+  <MFS_PlacedNone>No se pudo colocar ninguna base para {0}. No se encontraron casillas válidas.</MFS_PlacedNone>
+  <MFS_BufferHint>Prueba a reducir el margen alrededor de las bases del jugador.</MFS_BufferHint>
+  <MFS_SpawnError>Regenerar asentamientos de facciones: fallo al generar. Consulta el registro de desarrollo.</MFS_SpawnError>
+
+  <MFS_AbsentSection>Facciones definidas pero ausentes en esta partida</MFS_AbsentSection>
+  <MFS_AddFaction>Añadir facción</MFS_AddFaction>
+  <!-- {0} faction label -->
+  <MFS_FactionAdded>Se ha añadido {0} a esta partida. Todavía no tiene bases; usa su botón de generar a continuación.</MFS_FactionAdded>
+  <MFS_AddError>Regenerar asentamientos de facciones: no se pudo añadir la facción. Consulta el registro de desarrollo.</MFS_AddError>
+
+</LanguageData>

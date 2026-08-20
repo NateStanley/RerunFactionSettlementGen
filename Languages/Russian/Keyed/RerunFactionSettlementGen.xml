@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MFS_SettingsCategory>Повторная генерация поселений фракций</MFS_SettingsCategory>
+  <MFS_LoadSaveFirst>Сначала загрузите сохранение, затем снова откройте эту страницу.</MFS_LoadSaveFirst>
+  <MFS_Intro>Создаёт недостающие базы фракции на мировой карте с помощью ванильной генерации поселений, на собственном слое фракции.</MFS_Intro>
+  <MFS_ShowHiddenFactions>Показывать скрытые фракции</MFS_ShowHiddenFactions>
+  <MFS_BufferLabel>Буфер вокруг баз игрока (тайлы мира)</MFS_BufferLabel>
+  <MFS_BufferTooltip>Новые базы не будут размещаться ближе указанного числа тайлов мира от любого из ваших поселений. Расстояние измеряется в тайлах поверхности на всех слоях, поэтому орбитальные платформы тоже не появятся прямо над вашей базой. Значение 0 отключает буфер.</MFS_BufferTooltip>
+
+  <MFS_ColFaction>Фракция</MFS_ColFaction>
+  <MFS_ColLayer>Слой</MFS_ColLayer>
+  <MFS_ColBases>Базы</MFS_ColBases>
+  <MFS_BasesTooltip>Имеющиеся базы / цель.\n\nЦель не является фиксированным числом. Каждый слой мира имеет общий лимит поселений, зависящий от его размера и настройки населения мира; этот лимит делится между основывающими поселения фракциями слоя пропорционально их весу генерации поселений.\n\nДобавление новой фракции на слой означает ещё одного претендента на тот же лимит, поэтому цель уже существующих на этом слое фракций снижается.</MFS_BasesTooltip>
+
+  <MFS_NoFactions>Нет фракций для отображения.</MFS_NoFactions>
+  <MFS_NoFactionsTryHidden>Нет фракций для отображения. Попробуйте включить «Показывать скрытые фракции».</MFS_NoFactionsTryHidden>
+
+  <!-- {0} faction name, {1} owned count, {2} layer label, {3} target count -->
+  <MFS_CountTooltip>{0} имеет {1} баз(ы) на слое «{2}». Цель ванильной генерации мира — {3}.</MFS_CountTooltip>
+  <MFS_NothingToAdd>нечего добавить</MFS_NothingToAdd>
+  <MFS_SpawnOneBase>Создать 1 базу</MFS_SpawnOneBase>
+  <!-- {0} number of bases -->
+  <MFS_SpawnBases>Создать базы: {0}</MFS_SpawnBases>
+
+  <!-- {0} placed count, {1} faction name, {2} layer label -->
+  <MFS_PlacedBases>Размещено {0} баз(ы) для {1} на слое «{2}».</MFS_PlacedBases>
+  <!-- {0} placed count, {1} faction name, {2} shortfall count -->
+  <MFS_PlacedPartial>Размещено {0} баз(ы) для {1}; для оставшихся {2} не найдено подходящих тайлов.</MFS_PlacedPartial>
+  <!-- {0} faction name -->
+  <MFS_PlacedNone>Не удалось разместить базы для {0}. Подходящие тайлы не найдены.</MFS_PlacedNone>
+  <MFS_BufferHint>Попробуйте уменьшить буфер вокруг баз игрока.</MFS_BufferHint>
+  <MFS_SpawnError>Повторная генерация поселений фракций: ошибка при создании. Проверьте журнал разработчика.</MFS_SpawnError>
+
+  <MFS_AbsentSection>Фракции, определённые в игре, но отсутствующие в этом сохранении</MFS_AbsentSection>
+  <MFS_AddFaction>Добавить фракцию</MFS_AddFaction>
+  <!-- {0} faction label -->
+  <MFS_FactionAdded>{0} добавлена в это сохранение. Баз у неё пока нет, поэтому далее используйте её кнопку создания.</MFS_FactionAdded>
+  <MFS_AddError>Повторная генерация поселений фракций: не удалось добавить фракцию. Проверьте журнал разработчика.</MFS_AddError>
+
+</LanguageData>

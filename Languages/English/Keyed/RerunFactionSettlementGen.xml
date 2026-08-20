@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MFS_SettingsCategory>Rerun Faction Settlement Gen</MFS_SettingsCategory>
+  <MFS_LoadSaveFirst>Load a saved game first, then reopen this page.</MFS_LoadSaveFirst>
+  <MFS_Intro>Spawns a faction's missing world bases using vanilla settlement generation, on the faction's own world layer.</MFS_Intro>
+  <MFS_ShowHiddenFactions>Show hidden factions</MFS_ShowHiddenFactions>
+  <MFS_BufferLabel>Buffer around player bases (world tiles)</MFS_BufferLabel>
+  <MFS_BufferTooltip>New bases won't be placed within this many world tiles of any of your settlements. The distance is measured in surface world tiles on every layer, so it also stops orbital platforms from sitting directly above your base. Set to 0 to disable.</MFS_BufferTooltip>
+
+  <MFS_ColFaction>Faction</MFS_ColFaction>
+  <MFS_ColLayer>Layer</MFS_ColLayer>
+  <MFS_ColBases>Bases</MFS_ColBases>
+  <MFS_BasesTooltip>Owned bases / goal.\n\nThe goal is not a fixed number. Each world layer has a total settlement budget based on its size and the world's population setting, and that budget is split between the layer's settlement-founding factions in proportion to their settlement generation weight.\n\nAdding a new faction to a layer adds another claimant to the same budget, so the goal for factions already on that layer goes down.</MFS_BasesTooltip>
+
+  <MFS_NoFactions>No factions to show.</MFS_NoFactions>
+  <MFS_NoFactionsTryHidden>No factions to show. Try 'Show hidden factions'.</MFS_NoFactionsTryHidden>
+
+  <!-- {0} faction name, {1} owned count, {2} layer label, {3} target count -->
+  <MFS_CountTooltip>{0} owns {1} base(s) on the {2} layer. The vanilla world-generation target for it is {3}.</MFS_CountTooltip>
+  <MFS_NothingToAdd>nothing to add</MFS_NothingToAdd>
+  <MFS_SpawnOneBase>Spawn 1 base</MFS_SpawnOneBase>
+  <!-- {0} number of bases -->
+  <MFS_SpawnBases>Spawn {0} bases</MFS_SpawnBases>
+
+  <!-- {0} placed count, {1} faction name, {2} layer label -->
+  <MFS_PlacedBases>Placed {0} base(s) for {1} on the {2} layer.</MFS_PlacedBases>
+  <!-- {0} placed count, {1} faction name, {2} shortfall count -->
+  <MFS_PlacedPartial>Placed {0} base(s) for {1}; no valid tiles found for the remaining {2}.</MFS_PlacedPartial>
+  <!-- {0} faction name -->
+  <MFS_PlacedNone>Couldn't place any bases for {0}. No valid tiles found.</MFS_PlacedNone>
+  <MFS_BufferHint>Try lowering the player base buffer.</MFS_BufferHint>
+  <MFS_SpawnError>Rerun Faction Settlement Gen: spawning failed. Check the dev log.</MFS_SpawnError>
+
+  <MFS_AbsentSection>Factions defined but absent from this save</MFS_AbsentSection>
+  <MFS_AddFaction>Add faction</MFS_AddFaction>
+  <!-- {0} faction label -->
+  <MFS_FactionAdded>Added {0} to this save. It has no bases yet, so use its Spawn button next.</MFS_FactionAdded>
+  <MFS_AddError>Rerun Faction Settlement Gen: adding the faction failed. Check the dev log.</MFS_AddError>
+
+</LanguageData>

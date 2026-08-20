@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MFS_SettingsCategory>重新生成派系定居点</MFS_SettingsCategory>
+  <MFS_LoadSaveFirst>请先载入存档，然后重新打开此页面。</MFS_LoadSaveFirst>
+  <MFS_Intro>使用原版定居点生成逻辑，在派系所属的世界图层上生成该派系缺失的基地。</MFS_Intro>
+  <MFS_ShowHiddenFactions>显示隐藏派系</MFS_ShowHiddenFactions>
+  <MFS_BufferLabel>玩家基地周围的缓冲区（世界地块）</MFS_BufferLabel>
+  <MFS_BufferTooltip>新基地不会被放置在距你任何定居点该数值范围内的世界地块上。该距离在所有图层上均按地表世界地块计算，因此也能防止轨道平台正好悬停在你的基地上方。设为 0 可禁用。</MFS_BufferTooltip>
+
+  <MFS_ColFaction>派系</MFS_ColFaction>
+  <MFS_ColLayer>图层</MFS_ColLayer>
+  <MFS_ColBases>基地</MFS_ColBases>
+  <MFS_BasesTooltip>已拥有基地数 / 目标数。\n\n目标数并非固定值。每个世界图层根据其大小和世界人口设置拥有一个定居点总额度，该额度按定居点生成权重的比例分配给该图层上所有会建立定居点的派系。\n\n向图层添加新派系意味着多了一个分享额度的派系，因此该图层上现有派系的目标数会下降。</MFS_BasesTooltip>
+
+  <MFS_NoFactions>没有可显示的派系。</MFS_NoFactions>
+  <MFS_NoFactionsTryHidden>没有可显示的派系。请尝试勾选“显示隐藏派系”。</MFS_NoFactionsTryHidden>
+
+  <!-- {0} faction name, {1} owned count, {2} layer label, {3} target count -->
+  <MFS_CountTooltip>{0} 在“{2}”图层上拥有 {1} 个基地。原版世界生成的目标数为 {3}。</MFS_CountTooltip>
+  <MFS_NothingToAdd>无需添加</MFS_NothingToAdd>
+  <MFS_SpawnOneBase>生成 1 个基地</MFS_SpawnOneBase>
+  <!-- {0} number of bases -->
+  <MFS_SpawnBases>生成 {0} 个基地</MFS_SpawnBases>
+
+  <!-- {0} placed count, {1} faction name, {2} layer label -->
+  <MFS_PlacedBases>已为 {1} 在“{2}”图层上放置 {0} 个基地。</MFS_PlacedBases>
+  <!-- {0} placed count, {1} faction name, {2} shortfall count -->
+  <MFS_PlacedPartial>已为 {1} 放置 {0} 个基地；剩余 {2} 个未找到有效地块。</MFS_PlacedPartial>
+  <!-- {0} faction name -->
+  <MFS_PlacedNone>无法为 {0} 放置任何基地。未找到有效地块。</MFS_PlacedNone>
+  <MFS_BufferHint>请尝试调低玩家基地缓冲区。</MFS_BufferHint>
+  <MFS_SpawnError>重新生成派系定居点：生成失败。请查看开发者日志。</MFS_SpawnError>
+
+  <MFS_AbsentSection>已定义但不存在于此存档的派系</MFS_AbsentSection>
+  <MFS_AddFaction>添加派系</MFS_AddFaction>
+  <!-- {0} faction label -->
+  <MFS_FactionAdded>已将 {0} 添加到此存档。它还没有基地，请接着使用它的生成按钮。</MFS_FactionAdded>
+  <MFS_AddError>重新生成派系定居点：添加派系失败。请查看开发者日志。</MFS_AddError>
+
+</LanguageData>

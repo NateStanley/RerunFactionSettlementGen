@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MFS_SettingsCategory>Fraktionssiedlungen neu generieren</MFS_SettingsCategory>
+  <MFS_LoadSaveFirst>Lade zuerst einen Spielstand und öffne diese Seite dann erneut.</MFS_LoadSaveFirst>
+  <MFS_Intro>Erzeugt die fehlenden Weltbasen einer Fraktion mit der Siedlungsgenerierung des Grundspiels, auf der zur Fraktion gehörenden Weltebene.</MFS_Intro>
+  <MFS_ShowHiddenFactions>Versteckte Fraktionen anzeigen</MFS_ShowHiddenFactions>
+  <MFS_BufferLabel>Pufferzone um Spielerbasen (Weltfelder)</MFS_BufferLabel>
+  <MFS_BufferTooltip>Neue Basen werden nicht innerhalb dieser Anzahl von Weltfeldern um deine Siedlungen platziert. Der Abstand wird auf allen Ebenen in Oberflächen-Weltfeldern gemessen, sodass auch Orbitalplattformen nicht direkt über deiner Basis landen. 0 deaktiviert die Pufferzone.</MFS_BufferTooltip>
+
+  <MFS_ColFaction>Fraktion</MFS_ColFaction>
+  <MFS_ColLayer>Ebene</MFS_ColLayer>
+  <MFS_ColBases>Basen</MFS_ColBases>
+  <MFS_BasesTooltip>Vorhandene Basen / Ziel.\n\nDas Ziel ist keine feste Zahl. Jede Weltebene hat ein Gesamtbudget an Siedlungen, das von ihrer Größe und der Bevölkerungseinstellung der Welt abhängt. Dieses Budget wird im Verhältnis ihres Siedlungsgenerierungs-Gewichts auf die siedlungsgründenden Fraktionen der Ebene aufgeteilt.\n\nWird einer Ebene eine neue Fraktion hinzugefügt, beansprucht ein weiterer Anwärter dasselbe Budget, wodurch das Ziel der bereits vorhandenen Fraktionen sinkt.</MFS_BasesTooltip>
+
+  <MFS_NoFactions>Keine Fraktionen anzuzeigen.</MFS_NoFactions>
+  <MFS_NoFactionsTryHidden>Keine Fraktionen anzuzeigen. Versuche „Versteckte Fraktionen anzeigen“.</MFS_NoFactionsTryHidden>
+
+  <!-- {0} faction name, {1} owned count, {2} layer label, {3} target count -->
+  <MFS_CountTooltip>{0} besitzt {1} Basis/Basen auf der Ebene {2}. Das Ziel der Weltgenerierung dafür ist {3}.</MFS_CountTooltip>
+  <MFS_NothingToAdd>nichts hinzuzufügen</MFS_NothingToAdd>
+  <MFS_SpawnOneBase>1 Basis erzeugen</MFS_SpawnOneBase>
+  <!-- {0} number of bases -->
+  <MFS_SpawnBases>{0} Basen erzeugen</MFS_SpawnBases>
+
+  <!-- {0} placed count, {1} faction name, {2} layer label -->
+  <MFS_PlacedBases>{0} Basis/Basen für {1} auf der Ebene {2} platziert.</MFS_PlacedBases>
+  <!-- {0} placed count, {1} faction name, {2} shortfall count -->
+  <MFS_PlacedPartial>{0} Basis/Basen für {1} platziert; für die verbleibenden {2} wurden keine gültigen Felder gefunden.</MFS_PlacedPartial>
+  <!-- {0} faction name -->
+  <MFS_PlacedNone>Für {0} konnten keine Basen platziert werden. Keine gültigen Felder gefunden.</MFS_PlacedNone>
+  <MFS_BufferHint>Versuche, die Pufferzone um Spielerbasen zu verkleinern.</MFS_BufferHint>
+  <MFS_SpawnError>Neugenerierung von Fraktionssiedlungen: Erzeugen fehlgeschlagen. Siehe Entwicklerprotokoll.</MFS_SpawnError>
+
+  <MFS_AbsentSection>Definierte, aber in diesem Spielstand fehlende Fraktionen</MFS_AbsentSection>
+  <MFS_AddFaction>Fraktion hinzufügen</MFS_AddFaction>
+  <!-- {0} faction label -->
+  <MFS_FactionAdded>{0} wurde diesem Spielstand hinzugefügt. Sie hat noch keine Basen; nutze als Nächstes ihren Erzeugen-Knopf.</MFS_FactionAdded>
+  <MFS_AddError>Neugenerierung von Fraktionssiedlungen: Fraktion konnte nicht hinzugefügt werden. Siehe Entwicklerprotokoll.</MFS_AddError>
+
+</LanguageData>
